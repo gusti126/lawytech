@@ -1,0 +1,229 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btnSubmit {
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.huruf-khusus {
+  /* font-family: "Noto Serif", serif; */
+  font-weight: 600;
+}
+.tombol {
+}
+.navbar-brand img {
+  height: 50px;
+}
+.nav-link {
+  color: #fe5244 !important;
+  font-weight: bold;
+  border-radius: 12px;
+}
+/* .header .active {
+  color: #1d1c1c !important;
+} */
+
+.jumbotron {
+  border-radius: 12px;
+  height: 450px;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.tulisan-jumbotron {
+  margin-top: 30px;
+}
+
+.jumbotron h1 {
+  margin-top: -30px;
+}
+.jumbotron h1 span {
+  color: #fbb716;
+}
+
+.jumbotron a {
+  color: white;
+  text-transform: none;
+}
+.panel img {
+  height: 60px;
+  margin-right: 10px;
+}
+.info-panel {
+  background-color: #313a39;
+  border-radius: 15px;
+  margin-top: -90px;
+  padding: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.info-panel h5 {
+  color: #fbb716;
+  font-weight: bold;
+}
+.info-panel p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+.kelas-populer h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.kelas-populer .products-thumbnail {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.kelas-populer .products-thumbnail:hover {
+  border: 2px solid #fe5244;
+}
+.kelas-populer .products-thumbnail .products-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+}
+.kelas-populer .products-text {
+  color: #0c0d36;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.kelas-populer .products-price {
+  font-weight: bold;
+  font-size: 11px;
+  color: #ff7158;
+}
+.kelas-populer .products-price span {
+  font-weight: bold;
+  color: #0c0d36;
+}
+.kelas-populer a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.info {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.info .card {
+  background-color: #fff2cb;
+}
+.info .card img {
+  margin-top: -50px;
+  align-items: center;
+}
+.info h6 {
+  font-weight: bold;
+}
+.info p {
+  line-height: normal;
+  color: rgb(85, 84, 84);
+  font-weight: 300;
+}
+.info .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.info a.btn {
+  margin-top: auto;
+}
+.more h2 {
+  color: #ff9000;
+  font-weight: bold;
+}
+.more h6 {
+  font-size: 16px;
+}
+
+.diskusi {
+  background-color: #faf0e3;
+  margin-top: 30px;
+}
+.diskusi img {
+  /*max-height: 50px;*/
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+.diskusi a {
+  text-decoration: none;
+  color: black;
+}
+.diskusi .card:hover {
+  border: 2px solid #fe5244;
+}
+.diskusi button {
+  color: white;
+}
+.fitur-more h5 {
+  color: #fe5244;
+  font-weight: 300;
+}
+.fitur-more a {
+  color: #ffa800;
+  font-size: 18px;
+  font-weight: bold;
+}
+.info2 {
+  background-color: rgb(253, 245, 245);
+  padding-top: 70px;
+}
+.info2 span {
+  font-weight: bold;
+  color: #ffa800;
+}
+.kelas-head .thumbnail {
+  border-radius: 0px;
+}
+.info-kelas {
+  margin-top: 0px;
+}
+
+.footer {
+  background-color: #1c2125;
+  color: white;
+  padding: 30px;
+}
+.footer h4 {
+  color: #fbb716 !important;
+}
+.footer a {
+  color: white;
+}
+
+/*Desktop versiion*/
+@media (min-width: 992px) {
+  .tombol {
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+  .more h2 {
+    color: #ff9000;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .more h6 {
+    font-size: 16px;
+  }
+  .kelas-head .thumbnail {
+    border-radius: 12px;
+  }
+  .info-kelas {
+    margin-top: -40px;
+  }
+}
+
+/*Sidebar*/
